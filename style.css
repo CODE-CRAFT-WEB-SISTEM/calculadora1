@@ -540,3 +540,8 @@ ul {
 .options {
   display: none;
 }
+
+.versionInfo {
+  font-size: 5pt;
+  color: #ccc;
+}
