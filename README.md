@@ -1,0 +1,1 @@
+Calculadora simples criada no intuito apenas de fazer 4 operações matemáticas sendo elas somar, subtrair, multiplicar e dividir.
