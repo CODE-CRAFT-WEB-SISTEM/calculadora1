@@ -30,6 +30,8 @@ Soma: ${numA + numB}
 Subtração: ${numA - numB}
 Multiplicação: ${numA * numB}
 Divisão: ${numA / numB}
+
+☆ Developed by CodeCraft
 =×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=
 `;
 
