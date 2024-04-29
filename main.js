@@ -24,15 +24,17 @@ function CopyList(numA, numB) {
     document.getElementById("btnCopy").addEventListener("click", () => {
         const listCopy = `
 =×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=
-📄 Resultados do cálculos de ${numA} e ${numB}: 
+📄 *Resultados do cálculos de ${numA} e ${numB}:* 
       
 Soma: ${numA + numB}
 Subtração: ${numA - numB}
 Multiplicação: ${numA * numB}
 Divisão: ${numA / numB}
 
-☆ Developed by CodeCraft
 =×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=
+
+
+☆ Developed by CodeCraft
 `;
 
         navigator.clipboard
