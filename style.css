@@ -368,11 +368,11 @@ body {
 /* *** Msg Erro *** */
 
 .alert.error {
-  margin: 1rem auto 0 auto;
+  margin: 1rem auto 0;
   display: flex;
   position: absolute;
-  z-index: 10;
-  top: 3px;
+  z-index: 100;
+  top: 5px;
 }
 
 .error {
@@ -524,4 +524,19 @@ ul {
 .example-2 .icon-content a[data-social="youtube"] .filled,
 .example-2 .icon-content a[data-social="youtube"]~.tooltip {
   background-color: #ff0000;
+}
+
+.iconImg {
+  width: 25px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.func.options {
+  display: flex;
+  gap: .5rem
+}
+
+.options {
+  display: none;
 }
