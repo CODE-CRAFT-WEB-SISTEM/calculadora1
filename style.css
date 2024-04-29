@@ -544,4 +544,5 @@ ul {
 .versionInfo {
   font-size: 5pt;
   color: #292929;
+  text-align: right;
 }
