@@ -26,15 +26,15 @@ function CopyList(numA, numB) {
 =×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=
 📄 *Resultados do cálculos de ${numA} e ${numB}:* 
       
-Soma: ${numA + numB}
-Subtração: ${numA - numB}
-Multiplicação: ${numA * numB}
-Divisão: ${numA / numB}
+*Soma:* ${numA + numB}
+*Subtração:* ${numA - numB}
+*Multiplicação:* ${numA * numB}
+*Divisão:* ${numA / numB}
 
 =×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=
 
 
-☆ Developed by CodeCraft
+☆ _Developed by CodeCraft_
 `;
 
         navigator.clipboard
