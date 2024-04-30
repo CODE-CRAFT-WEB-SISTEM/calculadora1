@@ -24,7 +24,7 @@ function CopyList(numA, numB) {
     document.getElementById("btnCopy").addEventListener("click", () => {
         const listCopy = `
 =×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=
-📄 *Resultados do cálculos de ${numA} e ${numB}:* 
+📄 *Resultado dos cálculos de ${numA} e ${numB}:* 
       
 *Soma:* ${numA + numB}
 *Subtração:* ${numA - numB}
