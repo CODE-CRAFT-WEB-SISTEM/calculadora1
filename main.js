@@ -15,6 +15,10 @@ function ClearFields() {
     document.getElementById("btnDelete").addEventListener("click", () => {
         nmA.value = "";
         nmB.value = "";
+        soma.textContent = "_/_";
+        subtracao.textContent = "_/_";
+        multiplicacao.textContent = "_/_";
+        divisao.textContent = "_/_";
         nmA.focus();
     });
 }
