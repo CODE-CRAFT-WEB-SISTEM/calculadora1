@@ -2,13 +2,27 @@ const nmA = document.getElementById("nmA");
 const nmB = document.getElementById("nmB");
 const sum = document.getElementById("sum");
 const error = document.getElementById("error");
+const versionInfo = document.querySelector(".versionInfo");
+const modalShow = document.getElementById("modalShow");
+const modalClose = document.getElementById("modalClose");
 const closeError = document.getElementById("closeError");
 const options = document.getElementById("options");
-
 const soma = document.getElementById("soma");
 const subtracao = document.getElementById("subtracao");
 const multiplicacao = document.getElementById("multiplicacao");
 const divisao = document.getElementById("divisao");
+
+
+//Funcão de mostrar Atualizacoes no modal
+versionInfo.addEventListener('click', () => {
+  modalShow.classList.add("modalOn")
+});
+
+//Funcão de mostrar Atualizacoes no modal
+modalClose.addEventListener('click', () => {
+  modalShow.classList.remove("modalOn")
+});
+
 
 //Função de limpar campos
 function ClearFields() {
