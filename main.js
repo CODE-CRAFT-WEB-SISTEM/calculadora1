@@ -58,7 +58,7 @@ function CopyList(numA, numB) {
 
     navigator.clipboard.writeText(listCopy)
       .then(() => {
-        console.log("Copiado com sucesso!");
+        alert("Copiado com sucesso!");
       })
       .catch(err => {
         console.error(
