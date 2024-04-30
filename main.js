@@ -33,6 +33,7 @@ function ClearFields() {
     subtracao.textContent = "_/_";
     multiplicacao.textContent = "_/_";
     divisao.textContent = "_/_";
+    options.classList.remove("func");
     nmA.focus();
   });
 }
