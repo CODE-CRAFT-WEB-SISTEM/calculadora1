@@ -23,9 +23,9 @@ function ClearFields() {
 function CopyList(numA, numB) {
     document.getElementById("btnCopy").addEventListener("click", () => {
         const listCopy = `
-=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=
-
 📄 *Resultado dos cálculos de ${numA} e ${numB}:* 
+
+=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=
       
 *Soma:* ${numA + numB}
 *Subtração:* ${numA - numB}
