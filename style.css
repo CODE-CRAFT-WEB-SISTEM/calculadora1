@@ -565,13 +565,13 @@ ul {
 
 @keyframes animNewBall {
   0% {
-    background-color: seagreen;
+    background-color: orangered;
   }
   50% {
     background-color: transparent;
   }
   100% {
-    background-color: seagreen;
+    background-color: orangered;
   }
 }
 
