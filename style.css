@@ -794,6 +794,10 @@ button span {
   margin: 10px;
 }
 
+button span a {
+  text-decoration: none;
+}
+
 button::before {
   position: absolute;
   top: 0;
