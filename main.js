@@ -76,7 +76,7 @@ sum.addEventListener("click", ev => {
 
   let A = parseFloat(nmA.value);
   let B = parseFloat(nmB.value);
-  
+
   if (nmA.value === "") {
     nmA.style = "border: 2px solid red";
     nmA.focus();
@@ -88,7 +88,7 @@ sum.addEventListener("click", ev => {
   } else if (nmB.value > 0) {
     nmA.style = "border: 0";
   }
-  
+
   if (!isNaN(A) && !isNaN(B)) {
     const C = parseInt(A);
     const D = parseInt(B);
