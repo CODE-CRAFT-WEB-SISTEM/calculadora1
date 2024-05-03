@@ -76,7 +76,19 @@ sum.addEventListener("click", ev => {
 
   let A = parseFloat(nmA.value);
   let B = parseFloat(nmB.value);
-
+  
+  if (nmA.value === "") {
+    nmA.style = "border: 2px solid red";
+    nmA.focus();
+  } else if (nmB.value === "") {
+    nmB.style = "border: 2px solid red";
+    nmB.focus();
+  } else if (nmA.value > 0) {
+    nmA.style = "border: 0";
+  } else if (nmB.value > 0) {
+    nmA.style = "border: 0";
+  }
+  
   if (!isNaN(A) && !isNaN(B)) {
     const C = parseInt(A);
     const D = parseInt(B);
@@ -91,7 +103,6 @@ sum.addEventListener("click", ev => {
     ClearFields();
   } else {
     error.classList.add("alert");
-    nmA.focus();
     closeError.addEventListener("click", () => {
       error.classList.remove("alert");
     });
