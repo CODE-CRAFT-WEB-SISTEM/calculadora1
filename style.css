@@ -564,13 +564,15 @@ ul {
 
 @keyframes animNewBall {
   0% {
-    background-color: rgba(17, 104, 245, 1);
+    background-color: yellowgreen;
   }
+  
   50% {
     background-color: transparent;
   }
+  
   100% {
-    background-color: rgba(17, 104, 245, 1);
+    background-color: yellowgreen;
   }
 }
 
@@ -673,15 +675,15 @@ a {
   line-height: 1.5;
 }
 
-.rtf > * + * {
+.rtf>*+* {
   margin-top: 1em;
 }
 
-.rtf > * + :is(h1, h2, h3) {
+.rtf>*+ :is(h1, h2, h3) {
   margin-top: 2em;
 }
 
-.rtf > :is(h1, h2, h3) + * {
+.rtf> :is(h1, h2, h3)+* {
   margin-top: 0.75em;
 }
 
@@ -732,7 +734,8 @@ a {
   transition: 0.15s ease;
 }
 
-.button.is-ghost:hover, .button.is-ghost:focus {
+.button.is-ghost:hover,
+.button.is-ghost:focus {
   background-color: #dfdad7;
 }
 
@@ -741,7 +744,8 @@ a {
   color: #fff;
 }
 
-.button.is-primary:hover, .button.is-primary:focus {
+.button.is-primary:hover,
+.button.is-primary:focus {
   background-color: #4a0433;
 }
 
@@ -765,7 +769,8 @@ a {
   height: 24px;
 }
 
-.icon-button:hover, .icon-button:focus {
+.icon-button:hover,
+.icon-button:focus {
   background-color: #dfdad7;
 }
 
@@ -781,11 +786,11 @@ button {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid rgb(255,0,0);
+  border: 1px solid rgb(255, 0, 0);
   border-radius: 25px;
   outline: none;
   overflow: hidden;
-  color: rgb(255,0,0);
+  color: rgb(255, 0, 0);
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
 }
@@ -818,7 +823,7 @@ button::before {
 
 button:hover {
   color: #fff;
-  border: 1px solid rgb(255,0,0);
+  border: 1px solid rgb(255, 0, 0);
 }
 
 button:hover::before {
